@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <parent>
+    <groupId>com.zzvc.mmps</groupId>
+    <artifactId>mmps-parent</artifactId>
+    <version>6-SNAPSHOT</version>
+  </parent>
+
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>mmps-player-importer</artifactId>
+  <packaging>pom</packaging>
+  <name>mmps-player-importer</name>
+  <version>1.2.0-SNAPSHOT</version>
+
+  <properties>
+    <mmps-core.version>1.2.0-SNAPSHOT</mmps-core.version>
+    <mmps-db.version>1.2.0-SNAPSHOT</mmps-db.version>
+  </properties>
+
+  <scm>
+    <connection>scm:git:git@github.com:cuihbin/mmps-player.git/mmps-player-importer</connection>
+    <developerConnection>scm:git:git@github.com:cuihbin/mmps-player.git/mmps-player-importer</developerConnection>
+    <url>https://github.com/cuihbin</url>
+  </scm>
+
+  <modules>
+    <module>mmps-player-importer-base</module>
+    <module>mmps-player-importer-cli-app</module>
+    <module>mmps-player-importer-gui-app</module>
+  </modules>
+</project>

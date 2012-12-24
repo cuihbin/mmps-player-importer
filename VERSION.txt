@@ -1,0 +1,3 @@
+mmps-player-importer-1.2.0-SNAPSHOT
+ + Initial commit
+
