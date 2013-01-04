@@ -1,0 +1,1 @@
+Utility applications for convenience of player data importing. A GUI tool and a command line tool are provided.
