@@ -23,7 +23,7 @@ public class PlayerImporterGuiConsole extends GuiConsole {
 			@Override
 			public void buttonAction() {
 				try {
-					File file = frame.selectFileForRead(playerIOManager.getFileExt(), findText("player.importer.gui.file.filter.description." + playerIOManager.getFileExt()));
+					File file = fileChooser.selectFileForRead(playerIOManager.getFileExt(), findText("player.importer.gui.file.filter.description." + playerIOManager.getFileExt()));
 					playerIOManager.importPlayer(file);
 				} catch (FileException e) {
 				}
@@ -34,7 +34,7 @@ public class PlayerImporterGuiConsole extends GuiConsole {
 			@Override
 			public void buttonAction() {
 				try {
-					File file = frame.selectFileForWrite(playerIOManager.getFileExt(), findText("player.importer.gui.file.filter.description." + playerIOManager.getFileExt()));
+					File file = fileChooser.selectFileForWrite(playerIOManager.getFileExt(), findText("player.importer.gui.file.filter.description." + playerIOManager.getFileExt()));
 					playerIOManager.exportPlayer(file);
 				} catch (FileException e) {
 				}
