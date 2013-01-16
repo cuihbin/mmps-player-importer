@@ -21,8 +21,8 @@
   </properties>
 
   <scm>
-    <connection>scm:git:git@github.com:cuihbin/mmps-player.git/mmps-player-importer</connection>
-    <developerConnection>scm:git:git@github.com:cuihbin/mmps-player.git/mmps-player-importer</developerConnection>
+    <connection>scm:git:git@github.com:cuihbin/mmps-player-importer.git</connection>
+    <developerConnection>scm:git:git@github.com:cuihbin/mmps-player-importer.git</developerConnection>
     <url>https://github.com/cuihbin</url>
   </scm>
 
