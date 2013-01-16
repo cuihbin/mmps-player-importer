@@ -9,6 +9,4 @@
 
   <bean class="com.zzvc.mmps.data.importer.PlayerImporterGuiConsole" />
   
-  <bean class="com.zzvc.mmps.data.importer.file.jxl.JxlFileRwFactory" />
-  
 </beans>

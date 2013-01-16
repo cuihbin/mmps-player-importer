@@ -7,7 +7,6 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.zzvc.mmps.console.ConsoleMessageSupport;
@@ -25,7 +24,7 @@ import com.zzvc.mmps.model.Player;
 public class PlayerIOManagerImpl extends ConsoleMessageSupport implements PlayerIOManager {
 	private static SimpleDateFormat format = new SimpleDateFormat("yyyyMMddHHmmssS'.xls'");
 	
-	@Autowired
+	@Resource
 	private FileRwFactory fileRwFactory;
 	
 	@Resource
