@@ -16,7 +16,7 @@
     <dependency>
       <groupId>com.zzvc.mmps</groupId>
       <artifactId>mmps-player-data</artifactId>
-      <version>${project.version}</version>
+      <version>${mmps-player-data.version}</version>
     </dependency>
 
     <dependency>
