@@ -11,6 +11,7 @@ import java.util.TreeSet;
 import javax.annotation.Resource;
 
 import org.apache.log4j.Logger;
+import org.springframework.stereotype.Service;
 
 import com.zzvc.mmps.dao.PlayerDao;
 import com.zzvc.mmps.data.importer.file.FileReader;
@@ -21,6 +22,7 @@ import com.zzvc.mmps.model.Player;
 import com.zzvc.mmps.model.PlayerKey;
 import com.zzvc.mmps.model.PlayerKeyValue;
 
+@Service("playerDataManager")
 public class PlayerDataManagerImpl implements PlayerDataManager {
 	private static Logger logger = Logger.getLogger(PlayerDataManagerImpl.class);
 	

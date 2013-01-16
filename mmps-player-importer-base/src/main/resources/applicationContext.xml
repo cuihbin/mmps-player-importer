@@ -5,8 +5,4 @@
   
   <bean class="com.zzvc.mmps.data.importer.PlayerImporterApp" />
 
-  <bean id="playerIOManager" class="com.zzvc.mmps.data.importer.service.impl.PlayerIOManagerImpl" />
-  
-  <bean id="playerDataManager" class="com.zzvc.mmps.data.importer.service.impl.PlayerDataManagerImpl" />
-
 </beans>
