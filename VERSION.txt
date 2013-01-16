@@ -1,3 +1,2 @@
-mmps-player-importer-1.2.0-SNAPSHOT
- + Initial commit
-
+mmps-player-importer-2.0
+ + Adapt to new mmps-gui dialog api
