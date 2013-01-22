@@ -51,7 +51,7 @@ abstract public class PlayerIOBase extends ConsoleMessageSupport {
 				.create("f"));
 	}
 	
-	protected PlayerIOManager getApp() {
-		return (PlayerIOManager) BeanFactory.getBean("app");
+	protected PlayerIOManager getPlayerIoManager() {
+		return (PlayerIOManager) BeanFactory.getBean("playerIOManager");
 	}
 }

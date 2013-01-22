@@ -11,7 +11,7 @@ public class PlayerImporter extends PlayerIOBase {
 
 	@Override
 	protected void executeCommand(File file) {
-		getApp().importPlayer(file);
+		getPlayerIoManager().importPlayer(file);
 	}
 
 	public static void main(String[] args) {

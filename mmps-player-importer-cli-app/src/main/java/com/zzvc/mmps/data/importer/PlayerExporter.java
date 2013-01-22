@@ -11,7 +11,7 @@ public class PlayerExporter extends PlayerIOBase {
 
 	@Override
 	protected void executeCommand(File file) {
-		getApp().exportPlayer(file);
+		getPlayerIoManager().exportPlayer(file);
 	}
 
 	public static void main(String[] args) {
