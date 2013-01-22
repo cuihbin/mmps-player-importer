@@ -14,11 +14,11 @@ import com.zzvc.mmps.app.util.BeanFactory;
 import com.zzvc.mmps.console.ConsoleMessageSupport;
 import com.zzvc.mmps.data.importer.service.PlayerIOManager;
 
-abstract public class PlayerIOBase extends ConsoleMessageSupport {
+abstract public class PlayerIoBase extends ConsoleMessageSupport {
 	abstract protected String getCommandType();
 	abstract protected void executeCommand(File file);
 	
-	public PlayerIOBase() {
+	public PlayerIoBase() {
 		super();
 		pushBundle("PlayerImporterCliResources");
 	}

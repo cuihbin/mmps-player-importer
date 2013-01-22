@@ -2,7 +2,7 @@ package com.zzvc.mmps.data.importer;
 
 import java.io.File;
 
-public class PlayerExporter extends PlayerIOBase {
+public class PlayerExporter extends PlayerIoBase {
 	
 	@Override
 	protected String getCommandType() {
