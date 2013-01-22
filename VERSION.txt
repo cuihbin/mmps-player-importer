@@ -1,5 +1,6 @@
 mmps-player-importer-2.1
- + Upgrade to mmps-db-2.1 and adjust database configure
+ + Upgrade to mmps-db-2.2 and adjust database configure
+ + Change to mmps-parent-2.0 and multiple related modules upgrade
 
 mmps-player-importer-2.0
  + Adapt to new mmps-gui dialog api
